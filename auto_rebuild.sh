@@ -5,7 +5,7 @@ IMAGE_NAME="arithmetic-api"
 
 cd "$PROJECT_DIR"
 
-# Initial build and container start
+
 echo "[*] Initial build and container start..."
 docker build -t $IMAGE_NAME .
 docker stop $IMAGE_NAME-container 2>/dev/null
